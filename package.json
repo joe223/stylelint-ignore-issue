@@ -1,0 +1,15 @@
+{
+  "name": "stylelint-ignore-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss --config .postcss.js ./*.css --dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^7.0.17",
+    "stylelint": "^10.1.0"
+  }
+}
