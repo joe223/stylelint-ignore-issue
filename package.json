@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "postcss --config .postcss.js ./*.css --dir ./dist"
+    "start": "postcss --config .postcssrc.js ./*.css --dir ./dist"
   },
   "author": "",
   "license": "ISC",
