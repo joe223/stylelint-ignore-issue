@@ -11,7 +11,7 @@ $ npm start
 
 ## What we expected?  
 
-`dist/index.css` is not supposed to be lint according to `.stylelintignore`.
+`dist/index.css` is not supposed to be lint according to `.stylelintignore` if we set `ignorePath` in `.postcssrc.js` or not.
 
 ## Actual results
 
