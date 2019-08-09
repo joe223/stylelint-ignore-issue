@@ -11,15 +11,15 @@ $ npm start
 
 ## What we expected?  
 
-`dist/index.css` is not supposed to be lint according to `.stylelintignore` if we set `ignorePath` in `.postcssrc.js` or not.
+`index.css` is not supposed to be lint according to `.stylelintignore` if we set `ignorePath` in `.postcssrc.js` or not.
 
 ## Actual results
 
 ```shell
-├── dist
-│   ├── index.1.css
-│   └── index.css
+├── index.1.css
+└── index.css
 ```
+Stylelint lint all of theme.
 
 ## Speculate
 
